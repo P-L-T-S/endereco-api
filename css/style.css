@@ -1,7 +1,11 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+}
+.formul-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 .formul{
     background-color: rgba(255, 255, 255, 0.85);
@@ -10,7 +14,12 @@ body{
     height: 200px;
     border: 10px solid rgba(126, 126, 126, 0.6);
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto;
+}
+.formul2-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 .formul2{
     background-color: rgba(255, 255, 255, 0.85);
@@ -18,7 +27,7 @@ body{
     width: 400px;
     border: 10px solid rgba(126, 126, 126, 0.6);
     text-align: center;
-    margin: 0 auto;
+    margin: auto auto;
 }
 .formul input ,.formul2 input{
     width: 90%;
